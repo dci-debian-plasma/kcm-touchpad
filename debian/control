@@ -1,0 +1,38 @@
+Source: kcm-touchpad
+Section: kde
+Priority: optional
+XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Build-Depends: cmake,
+               pkg-kde-tools,
+               debhelper (>= 9.0.0),
+               kdelibs5-dev,
+               libx11-dev,
+               libx11-xcb-dev,
+               libxcb-record0-dev,
+               libxcb1-dev,
+               libxi-dev,
+               pkg-config,
+               xserver-xorg-dev,
+               xserver-xorg-input-synaptics-dev
+Standards-Version: 3.9.5
+Homepage: http://www.kde.org
+
+Package: kde-touchpad
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: touchpad configuration tool for KDE
+ The package provides a KDE System Settings module that
+ allows configuration of touchpads on KDE.
+
+Package: kde-touchpad-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: kde-touchpad (= ${binary:Version}), ${misc:Depends}
+Description: touchpad configuration tool for KDE
+ The package provides a KDE System Settings module that
+ allows configuration of touchpads on KDE.
+ .
+ This package contains debugging symbols for the kde-touchpad-config
+ package.

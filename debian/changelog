@@ -1,0 +1,13 @@
+kcm-touchpad (0.0+git20140305-0ubuntu1) trusty; urgency=medium
+
+  * New upstream snapshot
+   - fixes touchpad enable/disable working https://bugs.kde.org/331285
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 05 Mar 2014 16:10:48 +0000
+
+kcm-touchpad (0.0+git20140123-0ubuntu1) trusty; urgency=low
+
+
+  * Initial release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 04 Dec 2013 16:23:34 +0100
