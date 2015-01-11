@@ -1,0 +1,1 @@
+kde-config-touchpad: binary-without-manpage usr/bin/kcm-touchpad-list-devices

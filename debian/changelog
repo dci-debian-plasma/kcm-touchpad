@@ -5,6 +5,7 @@ kcm-touchpad (5.1.95-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Fix up debian/ to base on what we had in Kubuntu trusty.
+  * Add lintian override for missing manpage
 
  -- Paulo Dias <paulo.miguel.dias@gmail.com>  Thu, 08 Jan 2015 17:30:46 -0200
 
