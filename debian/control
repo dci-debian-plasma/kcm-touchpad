@@ -1,38 +1,66 @@
 Source: kcm-touchpad
 Section: kde
 Priority: optional
-XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Build-Depends: cmake,
-               pkg-kde-tools,
                debhelper (>= 9.0.0),
-               kdelibs5-dev,
+               extra-cmake-modules,
+               kded5-dev,
+               kinit-dev,
+               libkf5config-dev,
+               libkf5coreaddons-dev,
+               libkf5i18n-dev,
+               libkf5kcmutils-dev,
+               libkf5notifications-dev,
+               libkf5notifyconfig-dev,
+               libkf5xmlgui-dev,
+               libqt5x11extras5-dev,
                libx11-dev,
                libx11-xcb-dev,
+               libxcb-dri2-0-dev,
+               libxcb-dri3-dev,
+               libxcb-glx0-dev,
+               libxcb-icccm4-dev,
+               libxcb-image0-dev,
+               libxcb-keysyms1-dev,
+               libxcb-present-dev,
+               libxcb-randr0-dev,
                libxcb-record0-dev,
+               libxcb-render0-dev,
+               libxcb-shape0-dev,
+               libxcb-shm0-dev,
+               libxcb-sync-dev,
+               libxcb-util0-dev,
+               libxcb-xfixes0-dev,
                libxcb1-dev,
+               libxcursor-dev,
                libxi-dev,
                pkg-config,
+               plasma-framework-dev,
                xserver-xorg-dev,
                xserver-xorg-input-synaptics-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org
 
-Package: kde-touchpad
+Package: kde-config-touchpad
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-touchpad (<< 5.1.95~)
+Replaces: kde-touchpad (<< 5.1.95~)
 Description: touchpad configuration tool for KDE
  The package provides a KDE System Settings module that
  allows configuration of touchpads on KDE.
 
-Package: kde-touchpad-dbg
+Package: kde-config-touchpad-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: kde-touchpad (= ${binary:Version}), ${misc:Depends}
+Depends: kde-config-touchpad (= ${binary:Version}), ${misc:Depends}
+Breaks: kde-touchpad-dbg (<< 5.1.95~)
+Replaces: kde-touchpad-dbg (<< 5.1.95~)
 Description: touchpad configuration tool for KDE
  The package provides a KDE System Settings module that
  allows configuration of touchpads on KDE.
  .
- This package contains debugging symbols for the kde-touchpad-config
- package.
+ This package contains debugging symbols.
