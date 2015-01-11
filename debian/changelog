@@ -1,3 +1,13 @@
+kcm-touchpad (5.1.95-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Paulo Dias ]
+  * First Build for kf5.
+
+  [ Harald Sitter ]
+  * Fix up debian/ to base on what we had in Kubuntu trusty.
+
+ -- Paulo Dias <paulo.miguel.dias@gmail.com>  Thu, 08 Jan 2015 17:30:46 -0200
+
 kcm-touchpad (0.0+git20140305-0ubuntu1) trusty; urgency=medium
 
   * New upstream snapshot
