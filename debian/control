@@ -37,6 +37,7 @@ Build-Depends: cmake,
                libxcursor-dev,
                libxi-dev,
                pkg-config,
+               pkg-kde-tools,
                plasma-framework-dev,
                xserver-xorg-dev,
                xserver-xorg-input-synaptics-dev
