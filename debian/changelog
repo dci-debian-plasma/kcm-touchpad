@@ -9,6 +9,8 @@ kcm-touchpad (4:5.1.95-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
+  * Add missing xcb build-deps (not sure they're all used but it keeps
+    cmake happy)
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Jan 2015 13:25:42 +0100
 
