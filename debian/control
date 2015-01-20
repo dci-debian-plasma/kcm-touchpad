@@ -69,6 +69,15 @@ Description: touchpad configuration tool for KDE
  The package provides a KDE System Settings module that
  allows configuration of touchpads on KDE.
 
+Package: kde-touchpad
+Architecture: any
+Depends: kde-config-touchpad
+Section: oldlibs
+Priority: extra
+Description: transitional package
+ Transitional package for kde-config-touchpad, this package can be
+ safely removed.
+
 Package: kde-config-touchpad-dbg
 Architecture: any
 Section: debug

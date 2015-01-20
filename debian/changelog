@@ -1,3 +1,9 @@
+kcm-touchpad (4:5.1.95-0ubuntu2) vivid; urgency=medium
+
+  * Add transitional package for kde-touchpad
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 20 Jan 2015 11:16:19 +0100
+
 kcm-touchpad (4:5.1.95-0ubuntu1) vivid; urgency=medium
 
   [ Paulo Dias ]
