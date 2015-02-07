@@ -1,4 +1,4 @@
-kcm-touchpad (4:5.1.95-1~) UNRELEASED; urgency=medium
+kcm-touchpad (4:5.1.95-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -7,7 +7,7 @@ kcm-touchpad (4:5.1.95-1~) UNRELEASED; urgency=medium
   * Update copyright information.
   * Update install files.
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 15:28:22 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 17:08:14 +0100
 
 kcm-touchpad (4:5.1.95-0ubuntu2) vivid; urgency=medium
 
