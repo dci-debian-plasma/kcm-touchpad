@@ -63,7 +63,9 @@ Build-Depends: cmake (>= 2.8.12),
                xserver-xorg-dev,
                xserver-xorg-input-synaptics-dev
 Standards-Version: 3.9.6
-Homepage: http://www.kde.org
+Homepage: https://projects.kde.org/projects/kde/workspace/kcm-touchpad
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kcm-touchpad.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kcm-touchpad.git
 
 Package: kde-config-touchpad
 Architecture: any
