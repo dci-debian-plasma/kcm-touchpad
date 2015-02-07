@@ -5,6 +5,7 @@ kcm-touchpad (4:5.1.95-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Add myself as Uploader.
   * Update copyright information.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 07 Feb 2015 15:28:22 +0100
 

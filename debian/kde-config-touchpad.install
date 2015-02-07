@@ -1,1 +1,15 @@
-usr/
+usr/bin/kcm-touchpad-list-devices
+usr/lib/*/qt5/plugins/kded_touchpad.so
+usr/lib/*/qt5/plugins/plasma_engine_touchpad.so
+/usr/share/config.kcfg/touchpad.kcfg
+/usr/share/config.kcfg/touchpaddaemon.kcfg
+/usr/share/dbus-1/interfaces/org.kde.touchpad.xml
+/usr/share/icons/*/*/devices/input-touchpad.*
+/usr/share/knotifications5/kcm_touchpad.notifyrc
+/usr/share/kservices5/kcm_touchpad.desktop
+/usr/share/kservices5/kded/touchpad.desktop
+/usr/share/kservices5/plasma-applet-touchpad.desktop
+/usr/share/kservices5/plasma-dataengine-touchpad.desktop
+/usr/share/plasma/desktoptheme/default/icons/touchpad.svg
+/usr/share/plasma/plasmoids/touchpad/
+/usr/share/plasma/services/touchpad.operations
