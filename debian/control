@@ -8,9 +8,9 @@ Build-Depends: cmake (>= 2.8.12),
                extra-cmake-modules (>= 0.0.10),
                kded5-dev,
                kinit-dev,
+               libkf5completion-dev,
                libkf5configwidgets-dev,
                libkf5coreaddons-dev,
-               libkf5completion-dev,
                libkf5dbusaddons-dev,
                libkf5globalaccel-dev,
                libkf5i18n-dev,
@@ -86,9 +86,9 @@ Description: transitional package
  safely removed.
 
 Package: kde-config-touchpad-dbg
-Architecture: any
 Section: debug
 Priority: extra
+Architecture: any
 Depends: kde-config-touchpad (= ${binary:Version}), ${misc:Depends}
 Breaks: kde-touchpad-dbg (<< 5.1.95~)
 Replaces: kde-touchpad-dbg (<< 5.1.95~)
