@@ -1,3 +1,9 @@
+kcm-touchpad (4:5.1.95-0ubuntu3) vivid; urgency=medium
+
+  * Add kubuntu_disable-applet.diff to not install broken applet
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Mar 2015 20:41:40 +0100
+
 kcm-touchpad (4:5.1.95-0ubuntu2) vivid; urgency=medium
 
   * Add transitional package for kde-touchpad

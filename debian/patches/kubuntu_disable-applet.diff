@@ -1,0 +1,20 @@
+Description: don't install broken applet
+Author: Jonathan Riddell
+Origin: me
+Forwarded: no, upstream fixed it in Plasma 5.3
+Last-Update: 2015-03-09
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: kcm-touchpad-5.1.95/src/CMakeLists.txt
+===================================================================
+--- kcm-touchpad-5.1.95.orig/src/CMakeLists.txt
++++ kcm-touchpad-5.1.95/src/CMakeLists.txt
+@@ -68,8 +68,6 @@ target_link_libraries(kded_touchpad
+ 		      Qt5::X11Extras
+ )
+ 
+-add_subdirectory(applet)
+-
+ install(FILES kcm/kcm_touchpad.desktop
+         DESTINATION ${SERVICES_INSTALL_DIR}
+ )
